@@ -29,11 +29,13 @@ nav{
     color: rgba(36, 42, 56, 0.7);
     cursor: pointer;
 }
-/* shared css */
-.banner, .why-section{
+/* shared css ---------------*/
+.banner, .why-section, .inspiration-section{
     width: 67%;
     margin: 40px auto;
 }
+
+
 
 .banner-div{
     display: flex;
@@ -83,4 +85,19 @@ nav{
     color: rgba(36, 42, 56, 0.7);
     cursor: pointer;
     margin-top: 20px;
+}
+
+.inspiration-div{
+    margin-top: 80px;
+}
+.inspiration-div h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+.inspiration-div p{
+    text-align: center;
+    color: rgba(36, 42, 56, 0.7);
+    margin-top: 20px;
+    
 }
