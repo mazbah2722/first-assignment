@@ -30,16 +30,16 @@ nav{
     cursor: pointer;
 }
 /* shared css start---------------*/
-.banner, .why-section, .inspiration-section, .current-section{
+.banner, .why-section, .inspiration-section, .current-section, .support-section{
     width: 67%;
     margin: 40px auto;
 }
-.why-div .h1, .current-div h1 {
+.why-div .h1, .current-div h1, .support-div h1 {
     text-align: center;
     font-size: 30px;
     font-weight: 800;
 }
-.why-div .p, .current-div p{
+.why-div .p, .current-div p, .support-div p{
     text-align: center;
     margin-top: 20px;
     color: rgb(13, 19, 33, 0.7);
@@ -124,4 +124,12 @@ nav{
     color: rgb(13, 19, 33);
     font-weight: 700 ;
     
+}
+.support-div h1{
+    color: white;
+    font-weight: 700;
+}
+.support-div p{
+    color: rgb(255, 255, 255);
+    margin-bottom: 30px;
 }
